@@ -1,5 +1,5 @@
-#  Project flow
-![Architecture!](https://github.com/vivekSingh1406/AWS-Service/blob/main/Example-S3-Lambda-RDS-Service/vivek-singh.png)
+#  Example-S3-Lambda-RDS-Service
+![Architecture!](https://github.com/vivekSingh1406/AWS-Project/blob/main/Example-S3-Lambda-RDS-Service/vivek-singh.png)
 
 
 ### Full Spring Boot application:
