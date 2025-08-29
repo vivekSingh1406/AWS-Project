@@ -11,7 +11,7 @@
 - And CloudWatch is used for logging
 
 
-### Spring Boot Project (Java)
+### Spring Boot Project
 
 - REST Controller to receive data
 - AWS SDK integration to upload to S3
@@ -27,7 +27,6 @@
 # 2 - Project:- Example-S3-Lambda-CloudFront-DynamoDB-Service
 ![Architecture!](https://github.com/vivekSingh1406/AWS-Project/blob/main/Example-S3-Lambda-CloudFront-DynamoDB-Service/project.png)
 
-User → CloudFront → S3 → API Gateway → Lambda (GET/POST) → DynamoDB
 ### Full Serverless Web Application
 
 - User → CloudFront → S3 → API Gateway → Lambda (GET/POST) → DynamoDB
@@ -35,10 +34,8 @@ User → CloudFront → S3 → API Gateway → Lambda (GET/POST) → DynamoDB
 - The frontend is hosted in an S3 bucket and delivered globally via CloudFront.
 - The frontend makes API calls to API Gateway, which acts as the entry point for backend requests.
 - API Gateway invokes AWS Lambda functions:
-
     - GET Lambda → fetches data from DynamoDB.
     - POST Lambda → stores new data into DynamoDB.
-
 - DynamoDB is used as the backend database (NoSQL, fully managed).
 - CloudWatch (not shown in diagram but always active) monitors logs and metrics for Lambda/API Gateway.
 
